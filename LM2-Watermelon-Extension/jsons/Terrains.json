@@ -1,0 +1,14 @@
+[
+	//地块
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [0, 171, 169],
+		"uniques": ["Fresh water",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations",
+				    "[+1 Food] <after discovering [Sailing]>"]
+	},
+	]
