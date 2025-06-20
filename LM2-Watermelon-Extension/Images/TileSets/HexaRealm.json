@@ -1,8 +1,0 @@
-{
-    "useColorAsBaseTerrain": "false",
-    "fallbackTileSet": "FantasyHex",
-    "ruleVariants": {
-
-        "Grassland+Camel+Artificial Reservoir": ["Grassland","Artificial Reservoir","Camel","Camel"]
-    }
-}
