@@ -1,0 +1,76 @@
+[	
+	// 奖金资源
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast", "Atoll", "Ocean", "Reef", "Lakes"],
+		"improvementStats": {"food": 1},
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>",
+		"Generated on every [10] tiles <in [{Featureless} {Ocean}] tiles>",
+		"Generated on every [15] tiles <in [Atoll] tiles>",
+		"Generated on every [15] tiles <in [Reef] tiles>",
+		"Generated on every [15] tiles <in [Lakes] tiles>",
+		]
+	},
+
+    // 奢侈资源
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat", "Ocean", "Lakes"],
+		"improvementStats": {"gold": 2},
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated on every [40] tiles <in [{Featureless} {Ocean}] tiles>",
+					"Generated near City States with weight [15]",
+				    "Generated on every [30] tiles <in [Lakes] tiles>"]
+	},
+	{
+		"name": "Crab",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat", "Ocean", "Lakes"],
+		"improvementStats": {"gold": 1, "food": 1},
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+				    "Generated on every [30] tiles <in [Lakes] tiles>"]
+	},
+    // 战略资源
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Biology",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle", "Lakes"],
+		"improvedBy": ["Oil well", "Offshore Platform"
+		],
+		"improvementStats": {"production": 4},
+		"uniques": [
+		"Deposits in [Coast] tiles always provide [4] resources", "Deposits in [Lakes] tiles always provide [4] resources", "Not shown on world screen <when above [50] [Oil]>",
+		            "Guaranteed with Strategic Balance resource option",
+					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
+					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 8},
+		"minorDepositAmount": {"sparse": 4, "default": 5, "abundant": 5}	
+	},
+	]
